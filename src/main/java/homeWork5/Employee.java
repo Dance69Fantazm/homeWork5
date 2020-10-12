@@ -23,12 +23,11 @@ public class Employee {
                     "Зарплата: " + salary + " рублей" + "\n" + "Возвраст: " + age + " лет" + "\n");
     }
 
-    public void infoOlder(){
-        if (age > 40){
+    public void infoOlder(int minAge){
+        if (age > minAge){
             System.out.println("Сотрудник: " + fullName + "\n" + "Должность: " + position + "\n" +
                     "Email: " + email + "\n" + "Телефон: " + number + "\n" +
                     "Зарплата: " + salary + " рублей" + "\n" + "Возвраст: " + age + " лет" + "\n");
         }
-
     }
 }

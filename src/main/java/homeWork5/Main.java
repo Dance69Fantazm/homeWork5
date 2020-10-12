@@ -24,7 +24,7 @@ public class Main {
             employees[i].info();
         }*/
         for (Employee employee1 : employees) {
-            employee1.infoOlder();
+            employee1.infoOlder(40);
         }
     }
 }
